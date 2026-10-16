@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 运行产物（发送批次、抓取结果、清单）—— 可能含真实招聘方信息，绝不入库
+_sent_batch_*.json
+messages.json
+jobs.json
+inbox.json
+*.local.json
+
+# 浏览器 profile（含登录态 Cookie）—— 绝不入库
+profile/
+profile2/
+jobauto_profile/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
