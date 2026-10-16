@@ -1,4 +1,4 @@
-# 简历投递话术自动化 · BOSS直聘 / 猎聘
+﻿# 简历投递话术自动化 · BOSS直聘 / 猎聘
 
 一个 **DSH / Claude 风格的 Agent Skill**：在 BOSS直聘、猎聘上自动**搜岗 → 读 JD →
 生成定制招呼话术 → 发起沟通 → 回消息中心核实送达**。
@@ -55,14 +55,14 @@
 作为 Agent Skill 使用（DSH / Claude Code 等）：
 
 ```bash
-git clone https://github.com/<owner>/liepin-boss-apply.git \
+git clone https://github.com/lucasleong2007514133-art/liepin-boss-apply.git \
   ~/.dsh/skills/liepin-boss-apply
 ```
 
 或通过 skills.sh 生态（仓库公开后）：
 
 ```bash
-npx -y skills@latest add <owner>/liepin-boss-apply
+npx -y skills@latest add lucasleong2007514133-art/liepin-boss-apply
 ```
 
 无需 `pip install` / `npm install` —— **纯标准库**。

@@ -1,4 +1,4 @@
-# 发布清单（推送到 GitHub / skills.sh）
+﻿# 发布清单（推送到 GitHub / skills.sh）
 
 > 仓库已在本地初始化并完成首次提交（分支 `main`，commit `1e6ead0`）。
 > **推送需要你的 GitHub 凭证，所以最后一步留给你执行。** 本机没装 `gh`，
@@ -30,7 +30,7 @@ gh repo create liepin-boss-apply --public --source=. --remote=origin --push
 
 ```powershell
 cd "$env:USERPROFILE\.dsh\skills\liepin-boss-apply"
-git remote add origin https://github.com/<你的用户名>/liepin-boss-apply.git
+git remote add origin https://github.com/lucasleong2007514133-art/liepin-boss-apply.git
 git push -u origin main
 ```
 
@@ -45,7 +45,7 @@ ssh-keygen -t ed25519 -C "your@email.com"
 Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub"   # 复制到 GitHub
 
 cd "$env:USERPROFILE\.dsh\skills\liepin-boss-apply"
-git remote add origin git@github.com:<你的用户名>/liepin-boss-apply.git
+git remote add origin git@github.com:lucasleong2007514133-art/liepin-boss-apply.git
 git push -u origin main
 ```
 
@@ -63,9 +63,9 @@ git config user.email "<你的邮箱>"
 git commit --amend --reset-author --no-edit
 ```
 
-### 2) 把 README 里的 `<owner>` 换成你的用户名
+### 2) 把 README 里的 `lucasleong2007514133-art` 换成你的用户名
 ```powershell
-(Get-Content README.md -Raw) -replace '<owner>', '<你的用户名>' | Set-Content README.md -Encoding UTF8
+(Get-Content README.md -Raw) -replace 'lucasleong2007514133-art', 'lucasleong2007514133-art' | Set-Content README.md -Encoding UTF8
 git add README.md; git commit -m "docs: 填入仓库地址"
 ```
 
@@ -78,7 +78,7 @@ git add README.md; git commit -m "docs: 填入仓库地址"
 
 ```powershell
 npx -y skills@latest find "resume apply"        # 或 boss / liepin / job
-npx -y skills@latest add <你的用户名>/liepin-boss-apply   # 别人这样安装
+npx -y skills@latest add lucasleong2007514133-art/liepin-boss-apply   # 别人这样安装
 ```
 
 > 提示：技能本体已放在 `~/.dsh/skills/liepin-boss-apply`，**DSH 当前已识别并加载**
