@@ -88,6 +88,8 @@ python "$S\jobauto.py" inbox --site boss -o inbox.json                          
 
 ## 命令表
 
+> 想把仓库推上 GitHub / 发布到 skills.sh，见 [PUSH.md](PUSH.md)（含三种推送方式）。
+
 | 命令 | 作用 | 触碰线上 |
 |---|---|---|
 | `doctor` / `launch` / `tabs` / `login` | 环境与浏览器 | 只读 |
